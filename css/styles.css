@@ -45,3 +45,35 @@ h1 {
 .card:hover {
   transform: scale(1.05);
 }
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#filters label {
+  margin-right: 5px;
+}
+
+#filters select,
+#filters input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#filters button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#filters button:hover {
+  background-color: #45a049;
+}
