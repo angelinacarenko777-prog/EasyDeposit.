@@ -2,3 +2,16 @@ body {
   font-family: Arial;
   background: #f4f4f4;
 }
+#deposit-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
