@@ -2,49 +2,22 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Депозити</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<header>
-  <h1>Банк Онлайн</h1>
-  <nav>
-    <a href="index.html">Головна</a>
-    <a href="deposits.html">Депозити</a>
-  </nav>
-</header>
+<h1>Депозитні пропозиції</h1>
 
-<main>
-  <h2>Список депозитів</h2>
+<nav>
+  <a href="index.html">Головна</a>
+  <a href="deposits.html">Депозити</a>
+  <a href="contact.html">Контакти</a>
+</nav>
 
-  <div id="filters">
-    <label for="currency-filter">Валюта:</label>
-    <select id="currency-filter">
-      <option value="all">Всі</option>
-      <option value="UAH">UAH</option>
-      <option value="USD">USD</option>
-      <option value="EUR">EUR</option>
-    </select>
+<div id="deposit-list"></div>
 
-    <label for="term-filter">Термін (місяців):</label>
-    <select id="term-filter">
-      <option value="all">Всі</option>
-      <option value="6">6</option>
-      <option value="12">12</option>
-      <option value="24">24</option>
-    </select>
-
-    <label for="percent-filter">Мін. відсоток:</label>
-    <input type="number" id="percent-filter" placeholder="Відсоток" min="0">
-    <button id="apply-filters">Фільтрувати</button>
-  </div>
-
-  <div id="deposit-list"></div>
-</main>
-
-<script src="deposits.js"></script>
-
+<script src="js/data.js"></script>
+<script src="js/deposits.js"></script>
 </body>
 </html>
