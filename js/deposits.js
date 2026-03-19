@@ -1,4 +1,9 @@
-console.log("Deposits script loaded");
+const deposits = [
+  { bank: "ПриватБанк", percent: 12, term: 12, currency: "UAH" },
+  { bank: "Ощадбанк", percent: 10, term: 6, currency: "USD" },
+  { bank: "Альфа-Банк", percent: 11, term: 24, currency: "EUR" }
+];
+
 const container = document.getElementById("deposit-list");
 
 deposits.forEach(deposit => {
