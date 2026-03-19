@@ -2,22 +2,24 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Депозити</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>Банк Онлайн</h1>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="deposits.html">Депозити</a>
+    </nav>
+  </header>
 
-<h1>Депозитні пропозиції</h1>
+  <main>
+    <h2>Список депозитів</h2>
+    <div id="deposit-list"></div>
+  </main>
 
-<nav>
-  <a href="index.html">Головна</a>
-  <a href="deposits.html">Депозити</a>
-  <a href="contact.html">Контакти</a>
-</nav>
-
-<div id="deposit-list"></div>
-
-<script src="js/data.js"></script>
-<script src="js/deposits.js"></script>
+  <script src="deposits.js"></script>
 </body>
 </html>
